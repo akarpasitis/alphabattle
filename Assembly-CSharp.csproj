@@ -47,8 +47,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Tutorial_Assets\scripts\camera_Follow.cs" />
+     <Compile Include="Assets\Tutorial_Assets\scripts\cleaner.cs" />
+     <Compile Include="Assets\Tutorial_Assets\scripts\destroy_me.cs" />
+     <Compile Include="Assets\Tutorial_Assets\scripts\fire_Bullet.cs" />
      <Compile Include="Assets\Tutorial_Assets\scripts\player_Controller.cs" />
+     <Compile Include="Assets\Tutorial_Assets\scripts\player_Health.cs" />
      <Compile Include="Assets\Tutorial_Assets\scripts\shoot_Bullet.cs" />
+     <Compile Include="Assets\Tutorial_Assets\scripts\trap_damage.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
