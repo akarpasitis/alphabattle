@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class player_Health : MonoBehaviour {
 	public float fullHealth;
@@ -8,19 +9,36 @@ public class player_Health : MonoBehaviour {
 
 	public GameObject playerDeathFX;
 
+	//HUD
+	public Slider playerHealthSlider;
+	public Image damageScreenIndication;
+	Color flashcolor = new Color(155f, 155f, 155f, 0.2f);
+	float colorFlashSpeed = 5f;
+	bool damaged = false;
+
 	// Use this for initialization
 	void Start () {
 		currentHealth = fullHealth;
-
+		playerHealthSlider.maxValue = fullHealth;
+		playerHealthSlider.value = currentHealth;
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		//hurt indication
+		if (damaged) {
+			damageScreenIndication.color = flashcolor;
+		}else{
+			damageScreenIndication.color = Color.Lerp (damageScreenIndication.color, Color.clear, colorFlashSpeed * Time.deltaTime);
+		}
+		damaged = false;
+
 	}
 	public void addDamage(float damage){
 		currentHealth -= damage;
+		playerHealthSlider.value = currentHealth;
+		damaged = true;
 		if(currentHealth<=0){
 			makeDead ();
 		}
