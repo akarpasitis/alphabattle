@@ -16,12 +16,16 @@ public class player_Health : MonoBehaviour {
 	float colorFlashSpeed = 5f;
 	bool damaged = false;
 
+	AudioSource playerAS;
+
 	// Use this for initialization
 	void Start () {
 		currentHealth = fullHealth;
 		playerHealthSlider.maxValue = fullHealth;
 		playerHealthSlider.value = currentHealth;
-		
+
+		playerAS = GetComponent<AudioSource> ();
+
 	}
 	
 	// Update is called once per frame
@@ -39,6 +43,7 @@ public class player_Health : MonoBehaviour {
 		currentHealth -= damage;
 		playerHealthSlider.value = currentHealth;
 		damaged = true;
+		playerAS.Play ();
 		if(currentHealth<=0){
 			makeDead ();
 		}

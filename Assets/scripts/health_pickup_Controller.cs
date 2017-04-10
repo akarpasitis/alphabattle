@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class health_pickup_Controller : MonoBehaviour {
 	public float healthAmount;
+	public AudioClip health_pickup_sound;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +20,7 @@ public class health_pickup_Controller : MonoBehaviour {
 		if(other.tag=="Player"){
 			other.GetComponent<player_Health> ().addHealth (healthAmount);
 			Destroy (transform.root.gameObject);
+			AudioSource.PlayClipAtPoint (health_pickup_sound, transform.position, 5f);
 		}
 	}
 }
