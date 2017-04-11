@@ -21,6 +21,11 @@ public class fire_Bullet : MonoBehaviour {
 	public AudioClip shootSound;
 	public AudioClip reloadSound;
 
+	//graphic info
+	public Sprite weaponSprite;
+	public Image weaponImage;
+
+
 	// Use this for initialization
 	void Awake () {
 		nextBullet = 0f;
@@ -58,5 +63,15 @@ public class fire_Bullet : MonoBehaviour {
 	void playASound(AudioClip playTheSound){
 		gunMuzzleAS.clip = playTheSound;
 		gunMuzzleAS.Play ();
+	}
+
+	public void initializeWeapon(){
+		gunMuzzleAS.clip = reloadSound;
+		gunMuzzleAS.Play ();
+		nextBullet = 0;
+		playerAmmoSlider.maxValue = maxRounds;
+		playerAmmoSlider.value = remainingRounds;
+		weaponImage.sprite = weaponSprite;
+
 	}
 }

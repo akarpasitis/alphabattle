@@ -1,8 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\zombieController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\restartGame.cs">
     <Files>
-      <File FileName="Assets\scripts\zombieController.cs" Line="100" Column="8" />
+      <File FileName="Assets\scripts\zombieController.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\fire_Bullet.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\inventoryManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\weaponPickUpController.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\camera_Follow.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\player_Health.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\restartGame.cs" Line="22" Column="24" />
+      <File FileName="Assets\scripts\enemyHealth.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
