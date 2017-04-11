@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: f6925470c9738ef49916afefff05e5e1
+timeCreated: 1491872759
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: critter
+    100004: curve1
+    100006: eyes1
+    100008: foot_r
+    100010: foot_r1
+    100012: forearm_r
+    100014: forearm_r1
+    100016: hand_r
+    100018: hand_r1
+    100020: head
+    100022: joint4
+    100024: joint5
+    100026: left_foot_control
+    100028: leftArm_control
+    100030: leftArm_IK
+    100032: leftLeg_IK
+    100034: leg_r
+    100036: leg_r1
+    100038: mouth
+    100040: neck
+    100042: pelvis
+    100044: right_foot_control
+    100046: rightArm_control
+    100048: rightArm_IK
+    100050: rightLeg_IK
+    100052: root
+    100054: root_control
+    100056: shoulder_r
+    100058: shoulder_r1
+    100060: spine_1
+    100062: spine_2
+    100064: spine_3
+    100066: tail_end
+    100068: tail_mid
+    100070: tail_spine
+    100072: tail_splineIK
+    100074: teeth1
+    100076: upperArm_r
+    100078: upperArm_r1
+    100080: upperBody_control
+    100082: upperBody_IK
+    100084: upperLeg_r
+    100086: upperLeg_r1
+    400000: critter
+    400002: //RootNode
+    400004: curve1
+    400006: eyes1
+    400008: foot_r
+    400010: foot_r1
+    400012: forearm_r
+    400014: forearm_r1
+    400016: hand_r
+    400018: hand_r1
+    400020: head
+    400022: joint4
+    400024: joint5
+    400026: left_foot_control
+    400028: leftArm_control
+    400030: leftArm_IK
+    400032: leftLeg_IK
+    400034: leg_r
+    400036: leg_r1
+    400038: mouth
+    400040: neck
+    400042: pelvis
+    400044: right_foot_control
+    400046: rightArm_control
+    400048: rightArm_IK
+    400050: rightLeg_IK
+    400052: root
+    400054: root_control
+    400056: shoulder_r
+    400058: shoulder_r1
+    400060: spine_1
+    400062: spine_2
+    400064: spine_3
+    400066: tail_end
+    400068: tail_mid
+    400070: tail_spine
+    400072: tail_splineIK
+    400074: teeth1
+    400076: upperArm_r
+    400078: upperArm_r1
+    400080: upperBody_control
+    400082: upperBody_IK
+    400084: upperLeg_r
+    400086: upperLeg_r1
+    4300000: critter
+    4300002: teeth1
+    4300004: eyes1
+    7400000: critter_idle
+    7400002: critter_walk
+    9500000: //RootNode
+    13700000: critter
+    13700002: eyes1
+    13700004: teeth1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: critter_idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: critter
+        weight: 1
+      - path: critter/eyes1
+        weight: 1
+      - path: critter/teeth1
+        weight: 1
+      - path: root_control
+        weight: 1
+      - path: root_control/left_foot_control
+        weight: 1
+      - path: root_control/left_foot_control/leftLeg_IK
+        weight: 1
+      - path: root_control/leftArm_control
+        weight: 1
+      - path: root_control/leftArm_control/leftArm_IK
+        weight: 1
+      - path: root_control/right_foot_control
+        weight: 1
+      - path: root_control/right_foot_control/rightLeg_IK
+        weight: 1
+      - path: root_control/rightArm_control
+        weight: 1
+      - path: root_control/rightArm_control/rightArm_IK
+        weight: 1
+      - path: root_control/root
+        weight: 1
+      - path: root_control/root/pelvis
+        weight: 1
+      - path: root_control/root/pelvis/curve1
+        weight: 1
+      - path: root_control/root/pelvis/spine_1
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/neck
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/neck/head
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/neck/mouth
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r/upperArm_r
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r/upperArm_r/forearm_r
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r/upperArm_r/forearm_r/hand_r
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r1
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r1/upperArm_r1
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r1/upperArm_r1/forearm_r1
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r1/upperArm_r1/forearm_r1/hand_r1
+        weight: 1
+      - path: root_control/root/pelvis/tail_spine
+        weight: 1
+      - path: root_control/root/pelvis/tail_spine/tail_mid
+        weight: 1
+      - path: root_control/root/pelvis/tail_spine/tail_mid/tail_end
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r/leg_r
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r/leg_r/foot_r
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r/leg_r/foot_r/joint4
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r1
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r1/leg_r1
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r1/leg_r1/foot_r1
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r1/leg_r1/foot_r1/joint5
+        weight: 1
+      - path: root_control/tail_splineIK
+        weight: 1
+      - path: root_control/upperBody_control
+        weight: 1
+      - path: root_control/upperBody_control/upperBody_IK
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: critter_walk
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: critter
+        weight: 1
+      - path: critter/eyes1
+        weight: 1
+      - path: critter/teeth1
+        weight: 1
+      - path: root_control
+        weight: 1
+      - path: root_control/left_foot_control
+        weight: 1
+      - path: root_control/left_foot_control/leftLeg_IK
+        weight: 1
+      - path: root_control/leftArm_control
+        weight: 1
+      - path: root_control/leftArm_control/leftArm_IK
+        weight: 1
+      - path: root_control/right_foot_control
+        weight: 1
+      - path: root_control/right_foot_control/rightLeg_IK
+        weight: 1
+      - path: root_control/rightArm_control
+        weight: 1
+      - path: root_control/rightArm_control/rightArm_IK
+        weight: 1
+      - path: root_control/root
+        weight: 1
+      - path: root_control/root/pelvis
+        weight: 1
+      - path: root_control/root/pelvis/curve1
+        weight: 1
+      - path: root_control/root/pelvis/spine_1
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/neck
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/neck/head
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/neck/mouth
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r/upperArm_r
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r/upperArm_r/forearm_r
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r/upperArm_r/forearm_r/hand_r
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r1
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r1/upperArm_r1
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r1/upperArm_r1/forearm_r1
+        weight: 1
+      - path: root_control/root/pelvis/spine_1/spine_2/spine_3/shoulder_r1/upperArm_r1/forearm_r1/hand_r1
+        weight: 1
+      - path: root_control/root/pelvis/tail_spine
+        weight: 1
+      - path: root_control/root/pelvis/tail_spine/tail_mid
+        weight: 1
+      - path: root_control/root/pelvis/tail_spine/tail_mid/tail_end
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r/leg_r
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r/leg_r/foot_r
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r/leg_r/foot_r/joint4
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r1
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r1/leg_r1
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r1/leg_r1/foot_r1
+        weight: 1
+      - path: root_control/root/pelvis/upperLeg_r1/leg_r1/foot_r1/joint5
+        weight: 1
+      - path: root_control/tail_splineIK
+        weight: 1
+      - path: root_control/upperBody_control
+        weight: 1
+      - path: root_control/upperBody_control/upperBody_IK
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
